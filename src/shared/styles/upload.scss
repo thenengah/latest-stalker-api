@@ -1,0 +1,51 @@
+@import 'variables.scss';
+
+.container {
+  border: 1px solid $gray;
+  background-color: $white;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.example {
+  width: 100%;
+  max-width: 600px;
+}
+
+.satisfied {
+  display: inline-block;
+  color: $white;
+  background-color: $black;
+  padding: 10px;
+}
+
+.unsatisfied {
+  display: inline-block;
+  color: $white;
+  background-color: $red;
+  padding: 10px;
+}
+
+.name {
+  background-color: $silver;
+  display: inline-block;
+  padding: 10px;
+}
+
+@media (min-width: $media-small) {
+  .satisfied, 
+  .unsatisfied,
+  .name {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $media-large) {
+  .satisfied, 
+  .unsatisfied,
+  .name {
+    padding: 20px;
+    font-size: 20px;
+  }
+}

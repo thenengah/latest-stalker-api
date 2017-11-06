@@ -1,3 +1,10 @@
+# macs
+.DS_Store
+
+# build
+dist/
+bundle/
+
 # Logs
 logs
 *.log

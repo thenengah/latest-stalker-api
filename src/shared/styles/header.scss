@@ -1,0 +1,25 @@
+@import 'variables.scss';
+
+.container {
+  margin: 25px;
+}
+
+.h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+  font-family: $amatic;
+  text-decoration: none;
+}
+
+@media (min-width: $media-small) {
+  .h1 {
+    font-size: 75px;
+  }
+}
+
+@media (min-width: $media-large) {
+  .h1 { 
+    font-size: 100px; 
+  }
+}
