@@ -2,7 +2,7 @@
 
 Free and open-source api to check which dependencies in your package are using the latest version.
 
-Checkokut the [demo](https://latest-stalker.herokuapp.com) and the [module](https://github.com/thenengah/latest-stalker-module).
+Checkout the [demo](https://latest-stalker.herokuapp.com) and the [module](https://github.com/thenengah/latest-stalker-module).
 
 ## Usage
 
